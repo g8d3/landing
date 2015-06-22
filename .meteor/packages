@@ -10,3 +10,7 @@ insecure
 coffeescript
 mquandalle:jade
 stylus
+materialize:materialize
+accounts-base
+accounts-password
+accounts-ui

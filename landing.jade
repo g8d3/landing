@@ -1,10 +1,20 @@
 head
-  title landing
+	title Learn to Program
 
 body
-  h1 Welcome to Meteor!
-  +hello
-
-template(name='hello')
-  button Click Me
-  p You've pressed the button {{counter}} times.
+	.layer
+	form.layer-2
+		.centered
+			h2.header Start Learning!
+		.row
+			.col.offset-s4.s4
+				.input-field
+					input(type='email' placeholder='Email Address')
+		.centered
+			button#wednesday.btn.waves-effect.waves-light(type='submit')
+				| Go to Wednesday Session
+			&nbsp;
+			&nbsp;
+			&nbsp;
+			button#friday.btn.waves-effect.waves-light(type='submit')
+				| Go to Friday Session
