@@ -7,3 +7,6 @@
 meteor-platform
 autopublish
 insecure
+coffeescript
+mquandalle:jade
+stylus
